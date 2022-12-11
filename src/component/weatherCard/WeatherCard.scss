@@ -1,0 +1,63 @@
+.card-rapper {
+   position: relative;
+   .loading {
+      position: absolute;
+      top: 40%;
+      left: 45%;
+      z-index: 200;
+   }
+   .card {
+      min-width: 200px;
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.24);
+      position: relative;
+      cursor: pointer;
+      transition: 500ms ease;
+      .counrty-name {
+         font-weight: bold;
+      }
+      .refresh-weather-button {
+         position: absolute;
+         right: 10px;
+         top: 10px;
+         z-index: 100;
+         .refresh-icon {
+            height: 20px;
+            width: 20px;
+            transition: 500ms ease;
+            &:hover {
+               transition: 500ms ease;
+               height: 25px;
+               width: 25px;
+            }
+         }
+      }
+      .rotate {
+         transform: rotate(-180deg);
+         transition: 1s ease;
+      }
+
+      .weather-description {
+         color: silver;
+         font-size: 12px;
+      }
+
+      .temp-title {
+         font-weight: bold;
+         padding-top: 10px;
+      }
+
+      .min-max-temp-wrapper {
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+         font-size: 10px;
+         padding: 10px;
+      }
+   }
+   .blured {
+      transition: 500ms ease;
+      filter: blur(2px);
+   }
+}

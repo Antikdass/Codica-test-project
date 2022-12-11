@@ -1,0 +1,29 @@
+.weather-graph-component {
+   height: 100%;
+   position: relative;
+   width: 100%;
+   display: flex;
+   align-items: flex-end;
+   justify-content: center;
+   .weather-graph-wrapper {
+      position: relative;
+      height: 100%;
+      width: 300px;
+
+      .weather-graph-block {
+         height: 25px;
+         width: 60px;
+         box-shadow: 1px 5px 5px 0 silver;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         position: absolute;
+      }
+      .weather-graph-time {
+         position: absolute;
+         top: 30px;
+         opacity: 0.5;
+         font-size: 12px;
+      }
+   }
+}

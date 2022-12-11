@@ -1,0 +1,20 @@
+.home {
+   text-align: center;
+   padding: 20px;
+   height: 100%;
+   .empty-block {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100%;
+      .empty-block-title {
+         font-size: 40px;
+         color: silver;
+      }
+      .empty-block-img {
+         height: 300px;
+         opacity: 0.3;
+      }
+   }
+}
